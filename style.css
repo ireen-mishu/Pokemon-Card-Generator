@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
+body{
+    background-color: #eff3ff;
+}
+.container{
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+#card{
+    background: radial-gradient(circle at 50% 0%,orange 36%,#ffffff 36%);
+    width: 100%;
+    padding: 30px 20px;
+   box-shadow: 0 20px 30px rgb(0, 0,  0 ,0.15);
+   border-radius: 10px;
+}
